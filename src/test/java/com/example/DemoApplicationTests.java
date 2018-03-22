@@ -34,7 +34,6 @@ public class DemoApplicationTests {
     }
     
     @Test
-    @Ignore
     public void testDivision3()
     {	
     double res= DemoApplication.diviser(24, 0);
@@ -49,4 +48,18 @@ public class DemoApplicationTests {
     assertEquals(res, 5,0);
     }
 	
+    @Test
+    public void addition()
+    {	
+    double res= DemoApplication.addition(3, 2);
+    assertEquals(res, 5,0);
+    }
+    
+    @Test
+    public void addition()
+    {	
+    double res= DemoApplication.soustraire(3, 2);
+    assertEquals(res, 1,0);
+    }
+    
 }
