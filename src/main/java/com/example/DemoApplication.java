@@ -27,4 +27,11 @@ public class DemoApplication {
     	return  a/b;
     	
     }
+	
+	public static double Addition(Integer a, Integer b)
+    {
+    	
+    	return  a+b;
+    	
+    }
 }
