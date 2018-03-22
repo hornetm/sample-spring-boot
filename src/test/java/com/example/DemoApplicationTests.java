@@ -59,7 +59,7 @@ public class DemoApplicationTests {
     public void soustraire()
     {	
     double res= DemoApplication.soustraire(3, 2);
-    assertEquals(res, 1,0);
+    assertEquals(res, 7,0);
     }
     
 }
