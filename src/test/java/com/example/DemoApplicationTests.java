@@ -56,7 +56,7 @@ public class DemoApplicationTests {
     }
     
     @Test
-    public void addition()
+    public void soustraire()
     {	
     double res= DemoApplication.soustraire(3, 2);
     assertEquals(res, 1,0);
