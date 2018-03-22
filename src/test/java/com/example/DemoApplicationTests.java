@@ -20,7 +20,6 @@ public class DemoApplicationTests {
 	}
     
     @Test
-    @Ignore
     public void testDivision()
     {	
     double res= DemoApplication.diviser(8, 4);
@@ -28,7 +27,6 @@ public class DemoApplicationTests {
     }
     
     @Test
-    @Ignore
     public void testDivision2()
     {	
     double res= DemoApplication.diviser(12, 2);
@@ -36,6 +34,7 @@ public class DemoApplicationTests {
     }
     
     @Test
+    @Ignore
     public void testDivision3()
     {	
     double res= DemoApplication.diviser(24, 0);
