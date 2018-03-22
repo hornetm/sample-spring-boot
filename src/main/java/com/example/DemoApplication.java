@@ -28,10 +28,17 @@ public class DemoApplication {
     	
     }
 	
-	public static double Addition(Integer a, Integer b)
+	public static double addition(Integer a, Integer b)
     {
     	
     	return  a+b;
+    	
+    }
+	
+	public static double soustraire(Integer a, Integer b)
+    {
+    	
+    	return  a-b;
     	
     }
 }
