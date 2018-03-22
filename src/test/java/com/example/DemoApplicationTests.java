@@ -56,6 +56,7 @@ public class DemoApplicationTests {
     }
     
     @Test
+    @Ignore
     public void soustraire()
     {	
     double res= DemoApplication.soustraire(3, 2);
