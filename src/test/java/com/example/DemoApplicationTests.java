@@ -41,7 +41,6 @@ public class DemoApplicationTests {
     }
 
     @Test
-    @Ignore
     public void testDivision4()
     {
     double res= DemoApplication.diviser(12, 3);
