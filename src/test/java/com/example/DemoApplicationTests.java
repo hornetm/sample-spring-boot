@@ -39,7 +39,7 @@ public class DemoApplicationTests {
     double res= DemoApplication.diviser(24, 0);
     assertEquals(res, 0,0);
     }
-
+        
     @Test
     @Ignore
     public void testDivision4()
@@ -63,4 +63,19 @@ public class DemoApplicationTests {
     assertEquals(res, 1,0);
     }
     
+    public void boucle ()
+    {
+    	int a = 1, b = 15;
+
+    	while (a < b)
+
+    	{
+
+    	  System.out.println("coucou " +a+ " fois !!");
+
+    	  a++;
+
+    		
+    	}
+    }
 }
